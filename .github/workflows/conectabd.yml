@@ -9,13 +9,14 @@ on:
   workflow_dispatch:
     inputs:
       server:
-        description: 'CesaeBraga'
+        description: 'Server'
+        required: true
       username:
-        description: 'aluno-aws'
+        description: 'Username'
         required: true
         default: 'admin'
       password:
-        description: 'aws1234'
+        description: 'Password'
         required: true
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
